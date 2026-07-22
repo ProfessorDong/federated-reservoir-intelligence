@@ -30,8 +30,8 @@ experiments/          methods, baselines, data loaders, and run scripts
   data_*.py           dataset loaders (BCI-IV-2a/2b, Ninapro DB5, DVS128, N-Caltech101)
   run_*.py            one script per experiment in the paper
   demo_synthetic.py   self-contained demo, no external data, < 1 s on CPU
-results/*.json        recorded outputs from which every figure and table was generated
-generate_figures.py   regenerates all manuscript figures from results/
+results/*.json        recorded outputs from which Figures 2-3 and all tables were generated
+generate_figures.py   regenerates Figures 2 and 3 from results/ (Fig. 1 is a schematic)
 ```
 
 ## Quick start (no dataset download required)
@@ -44,7 +44,7 @@ python experiments/demo_synthetic.py
 The demo runs end-to-end on CPU in under a second and empirically confirms the one-shot
 exact-recovery property.
 
-To regenerate all figures from the recorded results:
+To regenerate the data figures (Figures 2 and 3) from the recorded results:
 
 ```bash
 python generate_figures.py
