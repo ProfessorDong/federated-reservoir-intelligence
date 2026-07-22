@@ -1,0 +1,30 @@
+{
+  "bci_iv2a": {
+    "K": 9,
+    "d_x": 44,
+    "d_phi": 1000,
+    "d_y": 4,
+    "mean_trials_per_client": 288.0,
+    "mean_timesteps_per_trial": 501.0,
+    "raw_scalars_per_client": 6348672.0,
+    "stats_scalars_per_client": 504500.0,
+    "readout_scalars_per_round": 4000.0,
+    "stats_vs_raw_ratio": 0.0794654378112462,
+    "stats_cheaper_than_raw": true,
+    "raw_cheaper_below_timesteps": 11465.90909090909
+  },
+  "ninapro_db5": {
+    "K": 10,
+    "d_x": 16,
+    "d_phi": 1000,
+    "d_y": 52,
+    "mean_trials_per_client": 1576.6,
+    "mean_timesteps_per_trial": 400.0,
+    "raw_scalars_per_client": 10090240.0,
+    "stats_scalars_per_client": 552500.0,
+    "readout_scalars_per_round": 52000.0,
+    "stats_vs_raw_ratio": 0.054755882912596726,
+    "stats_cheaper_than_raw": true,
+    "raw_cheaper_below_timesteps": 34531.25
+  }
+}

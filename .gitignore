@@ -1,0 +1,21 @@
+# Third-party benchmark datasets are NOT redistributed (see README)
+data/
+*.gdf
+*.aedat
+*.mat
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Generated figures (regenerate with generate_figures.py)
+*.pdf
+*.png
+
+# OS / editor
+.DS_Store
+*.swp

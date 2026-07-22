@@ -1,0 +1,327 @@
+{
+  "0": {
+    "esn500_mean_logvar": {
+      "acc": 0.7400903444381706,
+      "n_params_readout": 11000,
+      "comm_mb": 44.91996765136719,
+      "d_phi": 1000,
+      "N_r": 500
+    },
+    "esn500_windowed_W3": {
+      "acc": 0.757500470543949,
+      "n_params_readout": 33000,
+      "comm_mb": 397.97401428222656,
+      "d_phi": 3000,
+      "N_r": 500
+    },
+    "esn500_windowed_W5": {
+      "acc": 0.69525064307673,
+      "n_params_readout": 55000,
+      "comm_mb": 1101.980209350586,
+      "d_phi": 5000,
+      "N_r": 500
+    },
+    "esn1000_mean_logvar": {
+      "acc": 0.7750674446326621,
+      "n_params_readout": 22000,
+      "comm_mb": 177.57797241210938,
+      "d_phi": 2000,
+      "N_r": 1000
+    },
+    "esn1000_windowed_W3": {
+      "acc": 0.8079365079365081,
+      "n_params_readout": 66000,
+      "comm_mb": 1585.5903625488281,
+      "d_phi": 6000,
+      "N_r": 1000
+    },
+    "esn1000_windowed_W5": {
+      "acc": 0.8200985005332831,
+      "n_params_readout": 110000,
+      "comm_mb": 4397.411346435547,
+      "d_phi": 10000,
+      "N_r": 1000
+    },
+    "esn2000_mean_logvar": {
+      "acc": 0.8018790388355607,
+      "n_params_readout": 44000,
+      "comm_mb": 706.1080932617188,
+      "d_phi": 4000,
+      "N_r": 2000
+    },
+    "esn2000_windowed_W3": {
+      "acc": 0.795614530397139,
+      "n_params_readout": 132000,
+      "comm_mb": 6329.750061035156,
+      "d_phi": 12000,
+      "N_r": 2000
+    },
+    "esn2000_windowed_W5": {
+      "acc": 0.7988236401279878,
+      "n_params_readout": 220000,
+      "comm_mb": 17568.626403808594,
+      "d_phi": 20000,
+      "N_r": 2000
+    }
+  },
+  "1": {
+    "esn500_mean_logvar": {
+      "acc": 0.7353660831921702,
+      "n_params_readout": 11000,
+      "comm_mb": 44.91996765136719,
+      "d_phi": 1000,
+      "N_r": 500
+    },
+    "esn500_windowed_W3": {
+      "acc": 0.7390080933559195,
+      "n_params_readout": 33000,
+      "comm_mb": 397.97401428222656,
+      "d_phi": 3000,
+      "N_r": 500
+    },
+    "esn500_windowed_W5": {
+      "acc": 0.7524970198883243,
+      "n_params_readout": 55000,
+      "comm_mb": 1101.980209350586,
+      "d_phi": 5000,
+      "N_r": 500
+    },
+    "esn1000_mean_logvar": {
+      "acc": 0.8045360436664785,
+      "n_params_readout": 22000,
+      "comm_mb": 177.57797241210938,
+      "d_phi": 2000,
+      "N_r": 1000
+    },
+    "esn1000_windowed_W3": {
+      "acc": 0.7962544701675137,
+      "n_params_readout": 66000,
+      "comm_mb": 1585.5903625488281,
+      "d_phi": 6000,
+      "N_r": 1000
+    },
+    "esn1000_windowed_W5": {
+      "acc": 0.7980833176485352,
+      "n_params_readout": 110000,
+      "comm_mb": 4397.411346435547,
+      "d_phi": 10000,
+      "N_r": 1000
+    },
+    "esn2000_mean_logvar": {
+      "acc": 0.838179936006023,
+      "n_params_readout": 44000,
+      "comm_mb": 706.1080932617188,
+      "d_phi": 4000,
+      "N_r": 2000
+    },
+    "esn2000_windowed_W3": {
+      "acc": 0.8192013300708952,
+      "n_params_readout": 132000,
+      "comm_mb": 6329.750061035156,
+      "d_phi": 12000,
+      "N_r": 2000
+    },
+    "esn2000_windowed_W5": {
+      "acc": 0.8435284522241043,
+      "n_params_readout": 220000,
+      "comm_mb": 17568.626403808594,
+      "d_phi": 20000,
+      "N_r": 2000
+    }
+  },
+  "2": {
+    "esn500_mean_logvar": {
+      "acc": 0.7465273856578204,
+      "n_params_readout": 11000,
+      "comm_mb": 44.91996765136719,
+      "d_phi": 1000,
+      "N_r": 500
+    },
+    "esn500_windowed_W3": {
+      "acc": 0.7347794717359935,
+      "n_params_readout": 33000,
+      "comm_mb": 397.97401428222656,
+      "d_phi": 3000,
+      "N_r": 500
+    },
+    "esn500_windowed_W5": {
+      "acc": 0.7346226237530584,
+      "n_params_readout": 55000,
+      "comm_mb": 1101.980209350586,
+      "d_phi": 5000,
+      "N_r": 500
+    },
+    "esn1000_mean_logvar": {
+      "acc": 0.7700608570173789,
+      "n_params_readout": 22000,
+      "comm_mb": 177.57797241210938,
+      "d_phi": 2000,
+      "N_r": 1000
+    },
+    "esn1000_windowed_W3": {
+      "acc": 0.7732699667482277,
+      "n_params_readout": 66000,
+      "comm_mb": 1585.5903625488281,
+      "d_phi": 6000,
+      "N_r": 1000
+    },
+    "esn1000_windowed_W5": {
+      "acc": 0.788264633916808,
+      "n_params_readout": 110000,
+      "comm_mb": 4397.411346435547,
+      "d_phi": 10000,
+      "N_r": 1000
+    },
+    "esn2000_mean_logvar": {
+      "acc": 0.8105746910094737,
+      "n_params_readout": 44000,
+      "comm_mb": 706.1080932617188,
+      "d_phi": 4000,
+      "N_r": 2000
+    },
+    "esn2000_windowed_W3": {
+      "acc": 0.8062080431645648,
+      "n_params_readout": 132000,
+      "comm_mb": 6329.750061035156,
+      "d_phi": 12000,
+      "N_r": 2000
+    },
+    "esn2000_windowed_W5": {
+      "acc": 0.7832611832611833,
+      "n_params_readout": 220000,
+      "comm_mb": 17568.626403808594,
+      "d_phi": 20000,
+      "N_r": 2000
+    }
+  },
+  "3": {
+    "esn500_mean_logvar": {
+      "acc": 0.7729782294999685,
+      "n_params_readout": 11000,
+      "comm_mb": 44.91996765136719,
+      "d_phi": 1000,
+      "N_r": 500
+    },
+    "esn500_windowed_W3": {
+      "acc": 0.7720308676830416,
+      "n_params_readout": 33000,
+      "comm_mb": 397.97401428222656,
+      "d_phi": 3000,
+      "N_r": 500
+    },
+    "esn500_windowed_W5": {
+      "acc": 0.7388355605746909,
+      "n_params_readout": 55000,
+      "comm_mb": 1101.980209350586,
+      "d_phi": 5000,
+      "N_r": 500
+    },
+    "esn1000_mean_logvar": {
+      "acc": 0.7950467406989147,
+      "n_params_readout": 22000,
+      "comm_mb": 177.57797241210938,
+      "d_phi": 2000,
+      "N_r": 1000
+    },
+    "esn1000_windowed_W3": {
+      "acc": 0.7460976221845788,
+      "n_params_readout": 66000,
+      "comm_mb": 1585.5903625488281,
+      "d_phi": 6000,
+      "N_r": 1000
+    },
+    "esn1000_windowed_W5": {
+      "acc": 0.8038459125415648,
+      "n_params_readout": 110000,
+      "comm_mb": 4397.411346435547,
+      "d_phi": 10000,
+      "N_r": 1000
+    },
+    "esn2000_mean_logvar": {
+      "acc": 0.7972896668548842,
+      "n_params_readout": 44000,
+      "comm_mb": 706.1080932617188,
+      "d_phi": 4000,
+      "N_r": 2000
+    },
+    "esn2000_windowed_W3": {
+      "acc": 0.8340234644582469,
+      "n_params_readout": 132000,
+      "comm_mb": 6329.750061035156,
+      "d_phi": 12000,
+      "N_r": 2000
+    },
+    "esn2000_windowed_W5": {
+      "acc": 0.8269496204278814,
+      "n_params_readout": 220000,
+      "comm_mb": 17568.626403808594,
+      "d_phi": 20000,
+      "N_r": 2000
+    }
+  },
+  "4": {
+    "esn500_mean_logvar": {
+      "acc": 0.748738942217203,
+      "n_params_readout": 11000,
+      "comm_mb": 44.91996765136719,
+      "d_phi": 1000,
+      "N_r": 500
+    },
+    "esn500_windowed_W3": {
+      "acc": 0.7358491749796098,
+      "n_params_readout": 33000,
+      "comm_mb": 397.97401428222656,
+      "d_phi": 3000,
+      "N_r": 500
+    },
+    "esn500_windowed_W5": {
+      "acc": 0.7221657569483655,
+      "n_params_readout": 55000,
+      "comm_mb": 1101.980209350586,
+      "d_phi": 5000,
+      "N_r": 500
+    },
+    "esn1000_mean_logvar": {
+      "acc": 0.8026224982746722,
+      "n_params_readout": 22000,
+      "comm_mb": 177.57797241210938,
+      "d_phi": 2000,
+      "N_r": 1000
+    },
+    "esn1000_windowed_W3": {
+      "acc": 0.7812629399585921,
+      "n_params_readout": 66000,
+      "comm_mb": 1585.5903625488281,
+      "d_phi": 6000,
+      "N_r": 1000
+    },
+    "esn1000_windowed_W5": {
+      "acc": 0.7985162180814357,
+      "n_params_readout": 110000,
+      "comm_mb": 4397.411346435547,
+      "d_phi": 10000,
+      "N_r": 1000
+    },
+    "esn2000_mean_logvar": {
+      "acc": 0.8050379572118702,
+      "n_params_readout": 44000,
+      "comm_mb": 706.1080932617188,
+      "d_phi": 4000,
+      "N_r": 2000
+    },
+    "esn2000_windowed_W3": {
+      "acc": 0.819703243616287,
+      "n_params_readout": 132000,
+      "comm_mb": 6329.750061035156,
+      "d_phi": 12000,
+      "N_r": 2000
+    },
+    "esn2000_windowed_W5": {
+      "acc": 0.8533471359558316,
+      "n_params_readout": 220000,
+      "comm_mb": 17568.626403808594,
+      "d_phi": 20000,
+      "N_r": 2000
+    }
+  }
+}

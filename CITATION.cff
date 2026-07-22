@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the Article."
+title: "Federated reservoir intelligence: reference implementation for distributed temporal and neuromorphic learning"
+authors:
+  - family-names: Dong
+    given-names: Liang
+    orcid: "https://orcid.org/0000-0002-8585-1087"
+    affiliation: "Baylor University; University of Texas Southwestern Medical Center"
+license: MIT
+repository-code: "https://github.com/ProfessorDong/federated-reservoir-intelligence"
+year: 2026
+preferred-citation:
+  type: article
+  title: "Federated reservoir intelligence for distributed temporal and neuromorphic learning"
+  authors:
+    - family-names: Dong
+      given-names: Liang
+      orcid: "https://orcid.org/0000-0002-8585-1087"
+  journal: "Communications Engineering"
+  year: 2026
