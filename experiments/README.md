@@ -223,18 +223,24 @@ Citation will be updated upon publication. During peer review, contact the corre
 
 ## Reproducibility note on `results/ablation_results.json`
 
-The stored JSON contains the exact values used in the paper. Re-running
-`run_ablation.py` reproduces every reported figure, but individual per-seed
-accuracies may differ by about one test trial (1/513 = 0.0019 on BCI-IV-2a)
-because argmax ties on near-boundary trials can resolve differently across
-runs and hardware. Aggregate values quoted in the paper are unaffected at the
-reported precision.
+The stored JSON contains the exact values used in the paper.
+
+Re-running `run_ablation.py` on the same hardware and software stack reproduces
+the stored values bit-for-bit; we verified this with two independent runs, which
+agreed on all 984 recorded values. On different GPU hardware a small number of
+per-seed accuracies can differ by about one test trial (1/513 = 0.0019 on
+BCI-IV-2a), because minor floating-point differences in the ridge solve can flip
+near-tied argmax decisions. In a cross-hardware check this moved a few aggregate
+values by up to roughly 0.15 percentage points, far below the reported 95%
+confidence intervals.
 
 The `generalization` entries record `T_eff`, `test_acc` and `theoretical_bound`.
-An earlier `train_acc` / `gen_gap` pair was removed: those values were produced
-by a version of `ablation_generalization` in which the training-accuracy labels
-were drawn with a different random index set than the features, so they sat at
-the 25% chance level. The fit itself and all reported test accuracies were never
-affected, because the readout is fitted with correctly paired labels and the test
-split is never subsampled. The current code re-derives the label indices with the
-same seed and is correct.
+An earlier `train_acc` / `gen_gap` pair was removed. Those values were produced by
+a version of `ablation_generalization` in which the training-accuracy labels were
+drawn with a different random index set than the corresponding features, so they
+sat at the 25% chance level for this four-class task. The readout fit and every
+reported test accuracy were unaffected: the fit uses correctly paired labels
+(`sub_oh` is built from the same indices as `sub_feat`), and the test split is
+never subsampled. The current code re-derives the label indices with the same
+seed and is correct; a fresh run yields training accuracy above test accuracy and
+decreasing with more data, as expected.
