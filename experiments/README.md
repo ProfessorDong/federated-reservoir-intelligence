@@ -220,3 +220,21 @@ experiments/
 ## Citation and contact
 
 Citation will be updated upon publication. During peer review, contact the corresponding author via the journal editorial office (Communications Engineering, MS ID COMMSENG-26-0313-T).
+
+## Reproducibility note on `results/ablation_results.json`
+
+The stored JSON contains the exact values used in the paper. Re-running
+`run_ablation.py` reproduces every reported figure, but individual per-seed
+accuracies may differ by about one test trial (1/513 = 0.0019 on BCI-IV-2a)
+because argmax ties on near-boundary trials can resolve differently across
+runs and hardware. Aggregate values quoted in the paper are unaffected at the
+reported precision.
+
+The `generalization` entries record `T_eff`, `test_acc` and `theoretical_bound`.
+An earlier `train_acc` / `gen_gap` pair was removed: those values were produced
+by a version of `ablation_generalization` in which the training-accuracy labels
+were drawn with a different random index set than the features, so they sat at
+the 25% chance level. The fit itself and all reported test accuracies were never
+affected, because the readout is fitted with correctly paired labels and the test
+split is never subsampled. The current code re-derives the label indices with the
+same seed and is correct.
